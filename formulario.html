@@ -4,12 +4,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
     <title>Formulário</title>
 </head>
 
 <body>
     <main>
+        <div>
+
+            <header>
+                <nav>
+                    <h1 class="alinhamentoh1">MSLOG</h1>
+                    <ul>
+                        <button class="">
+                            <li><a href="index.html">Home</a></li>
+                        </button>
+                        <button class="">
+                            <li><a href="formulario.html">Formulário</a></li>
+                        </button>
+                        <button class="">
+                            <li><a href="sobre.html">Sobre</a></li>
+                        </button>
+                    </ul>
+
+                </nav>
+
+            </header>
+        </div>
+
         <section class="formulario-section">
+
             <h2>Formulário De Incrição</h2>
 
 
@@ -43,42 +67,88 @@
 
                     <label for="cargo">Cargo Pretendido:</label>
                     <select name="cargo" id="cargo">
-                     <option value="">Selecione Um Cargo</option>   
-                    <option value="diretordelogística">Diretor de Logística</option>
-                    <option value="gerentedeoperações">Gerente de Operações</option>
-                    <option value="gerentedeplanejamentologístico">Gerente de Planejamento Logístico</option>
-                    <option value="coordenadordelogística">Coordenador de Logística</option>
-                    <option value="supervisordearmazem">Supervisor de Armazém</option>
-                    <option value="analistadetransporte">Analista de Transporte</option>
-                    <option value="planejadorderotas">Planejador de Rotas</option>
-                    <option value="motoristadecaminhão">Motorista de Caminhão</option>
-                    <option value="assistentedeexpedição">Assistente de Expedição</option>
-                    <option value="coordenadordefrota">Coordenador de Frota</option>
-                    <option value="analistadeestoque">Analista de Estoque</option>
-                    <option value="operadordeempilhadeira">Operador de Empilhadeira</option>
-                    <option value="conferentedemercadorias">Conferente de Mercadorias</option>
-                    <option value="auxiliardearmazem">Auxiliar de Armazém</option>
-                    <option value="liderdeseparacaoepicking">Líder de Separação e Picking</option>
-                    <option value="analistadesistemaslogisticos">Analista de Sistemas Logísticos</option>
-                    <option value="especialistaemwms(warehousemanagementsystem)">Especialista em WMS (Warehouse Management System)</option>
-                    <option value="analistadeindicadores(kpis)">Analista de Indicadores (KPIs)</option>
-                    <option value="tecnicoderastreamentoemonitoramento">Técnico de Rastreamento e Monitoramento</option>
-                    <option value="assistentedecontroledequalidade">Assistente de Controle de Qualidade</option>
-                   
+                        <option value="">Selecione Um Cargo</option>
+                        <option value="diretordelogística">Diretor de Logística</option>
+                        <option value="gerentedeoperações">Gerente de Operações</option>
+                        <option value="gerentedeplanejamentologístico">Gerente de Planejamento Logístico</option>
+                        <option value="coordenadordelogística">Coordenador de Logística</option>
+                        <option value="supervisordearmazem">Supervisor de Armazém</option>
+                        <option value="analistadetransporte">Analista de Transporte</option>
+                        <option value="planejadorderotas">Planejador de Rotas</option>
+                        <option value="motoristadecaminhão">Motorista de Caminhão</option>
+                        <option value="assistentedeexpedição">Assistente de Expedição</option>
+                        <option value="coordenadordefrota">Coordenador de Frota</option>
+                        <option value="analistadeestoque">Analista de Estoque</option>
+                        <option value="operadordeempilhadeira">Operador de Empilhadeira</option>
+                        <option value="conferentedemercadorias">Conferente de Mercadorias</option>
+                        <option value="auxiliardearmazem">Auxiliar de Armazém</option>
+                        <option value="liderdeseparacaoepicking">Líder de Separação e Picking</option>
+                        <option value="analistadesistemaslogisticos">Analista de Sistemas Logísticos</option>
+                        <option value="especialistaemwms(warehousemanagementsystem)">Especialista em WMS (Warehouse
+                            Management System)</option>
+                        <option value="analistadeindicadores(kpis)">Analista de Indicadores (KPIs)</option>
+                        <option value="tecnicoderastreamentoemonitoramento">Técnico de Rastreamento e Monitoramento
+                        </option>
+                        <option value="assistentedecontroledequalidade">Assistente de Controle de Qualidade</option>
+
 
                     </select>
 
                     <label for="areadeinterrese">Área De Interesse</label>
-                    <textarea id="areadeinterrese" name="areadeinterrese" rows="4" placeholder="conte-nos um pouco mais sobre sua área..." required></textarea>
+                    <textarea id="areadeinterrese" name="areadeinterrese" rows="4"
+                        placeholder="conte-nos um pouco mais sobre sua área..." required></textarea>
 
                     <label for="disponibilidade">Quais São Seus Horarios Disponiveis</label>
-                   <select name="disponibilidade" id="disponibilidade" required>
+                    <select name="disponibilidade" id="disponibilidade" required>
 
-                    <option value="">Escolha um Horarios</option>
-                    <option value=""
-                   </select> 
-                    
+                        <option value="">Escolha um Horarios</option>
+                        <option value="manha">Manhã: 06:00 as 12:00</option>
+                        <option value="tarde">Tarde: 12:00 as 18:00</option>
+                        <option value="noite">Noite: 18:00 as 00:00</option>
+
+                    </select>
+                    <select>
+                        <label for="formação1">Nível De Escolaridade</label>
+                        <option value="">Escolha Umas Das Opções Abaixo</option>
+                        <option value="ensinomedio">Ensino Médio</option>
+                        <option value="ensinotecnico">Ensino Técnico</option>
+                        <option value="ensinosuperior">Ensino Superior</option>
+                    </select>
+                    <label for="cursos">Cursos Concluídos Ou Em Andamento</label>
+                    <textarea id="cursos" name="cursos" rows="4" placeholder="conte-nos Sobre Seus Cursos..."
+                        required></textarea>
+
+                    <legend>Experiência Profissional</legend>
+                    <label for="nomedaempresa">Nome Da Empresa</label>
+                    <input type="text" id="nomedaempresa" name="nomedaempresa" required>
+
+                    <label for="cargoocupado">Cargo Ocupado</label>
+                    <input type="text" id="cargoocupado" name="cargoocupado" required>
+
+                    <label for="periodo">Período (Início e Término)</label>
+                    <input type="text" id="periodo" name="periodo" required>
+
+                    <label for="atividades">Principais Atividades E Responsabilidades</label>
+                    <input type="text" id="atividades" name="atividades" required>
+
+                    <label for="curriculo">Currículo Atualizado</label>
+                    <input type="file" id="curriculo" name="curriculo" required>
+
+                    <label for="certificado">Certificados (Cursos Treinamentos)</label>
+                    <input type="file" id="certificado" name="certificado" required>
+
+                    <label for="Foto">Fotos (Se Solicitado)</label>
+                    <input type="file" id="foto" name="foto" required>
+
+                    <label for="valor">Valor Entre 1518,00 Até 10.396,00</label>
+                    <input type="range" id="valor" name="valor" min="1518,00" max="10,396" value="1518,00">
+
+
                 </fieldset>
+                <div class="botoes">
+                    <button type="submit">Enviar Inscrição</button>
+                    <button type="reset">Limpar formulario</button>
+                </div>
             </form>
     </main>
 </body>
