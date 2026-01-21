@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 nav{
     position: relative;
     top: -200px;
@@ -7,6 +8,9 @@ nav{
 
 
 }
+=======
+
+>>>>>>> d4df472 (primeiro commit)
 ul{
     display: flex;
     list-style-type: none;
@@ -26,11 +30,16 @@ ul{
 }
 .alinhamentoh1{
     position: relative;
+<<<<<<< HEAD
     top: 250px;
+=======
+    top: 50px;
+>>>>>>> d4df472 (primeiro commit)
     left: 10px;
     font-size: 50px;
 
 }
+<<<<<<< HEAD
 
 .imagem1{
     display: flex;
@@ -42,6 +51,9 @@ ul{
     top: 100px;
     
 }
+=======
+    
+>>>>>>> d4df472 (primeiro commit)
 *{
     margin: 0;
     padding: 0;
@@ -186,4 +198,76 @@ footer{
 
 }
 
+<<<<<<< HEAD
     
+=======
+.link{
+    position: relative;
+    top: -300px;
+}
+
+/* home */
+.topo{
+    background-color: #555;
+    position: relative;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    width: 100%;       
+    height: 60px;
+    
+
+}
+
+.imagemtp{
+    display: flex;
+    padding:20px;
+    height:100px;
+    position: relative;
+    left: 600px;
+    top: -71px;
+}
+
+.links{
+    position: relative;
+    top: -350px;
+    left: 500px;
+}
+
+.img1{
+
+display: flex;
+height:auto ;
+width: 500px ;    
+    
+}
+
+/* final site */
+
+.final{
+
+
+    background-color: #555;
+    position: relative;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    width: 100%;       
+    height: 60px;
+    }
+
+    /* topo formulario */
+
+.topof{
+     background-color: #555;
+    position: relative;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    width: ;       
+    height: px;
+}
+.fundopg{
+    background-color: #4d1dd3;
+}
+>>>>>>> d4df472 (primeiro commit)
